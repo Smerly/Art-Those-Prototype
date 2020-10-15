@@ -7,7 +7,6 @@
   align-content: space-between;
 }
 body {
-  background-color: #bcc0c7;
 }
 
 #top-panel-1 {
@@ -36,10 +35,23 @@ a {
 }
 
 input#search-bar {
+  display: flex;
+  flex-direction: center;
   float: right;
+  width: 100px;
+  height: auto;
 }
 
 #title-image {
   width: 20%;
   height: auto;
+}
+
+#overlay-color {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #bcc0c7;
+  padding: 2.5em;
+  height: 10000px;
 }
