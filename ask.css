@@ -7,6 +7,12 @@
   align-content: space-between;
 }
 body {
+  background-image: url("pexels-photo.jpeg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #top-panel-1 {
@@ -24,6 +30,7 @@ body {
   margin: 0 auto;
   background-color: #ffffff;
   padding: 2.5em;
+  opacity: 85%;
 }
 
 li {
@@ -43,7 +50,7 @@ input#search-bar {
 }
 
 #title-image {
-  width: 20%;
+  width: 30%;
   height: auto;
 }
 
@@ -54,4 +61,13 @@ input#search-bar {
   background-color: #bcc0c7;
   padding: 2.5em;
   height: 10000px;
+}
+
+.parallaxbg {
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
 }
