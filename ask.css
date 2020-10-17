@@ -54,6 +54,11 @@ input#search-bar {
   height: auto;
 }
 
+#ask-title {
+  width: 25%;
+  height: 25%;
+}
+
 #overlay-color {
   display: flex;
   width: 80%;
@@ -62,6 +67,7 @@ input#search-bar {
   padding: 2.5em;
   height: auto;
   min-height: 1000px;
+  flex-direction: column;
 }
 
 body,
@@ -74,21 +80,23 @@ html {
 
 #box-ask {
   display: flex;
-  min-width: 1000px;
-  min-height: 1000px;
+  width: 1000px;
+  height: 700px;
   width: 0 auto;
   height: 0 auto;
   margin: 0 auto;
   background-color: #e9e9e9;
-  padding: 2em;
+  padding: 1em;
   justify-content: center;
   border: 2px black solid;
+  object-fit: contain;
+  float: below;
 }
 
 .text-box {
   display: flex;
-  height: 600px;
-  width: 900px;
+  min-height: 400px;
+  min-width: 400px;
   flex-direction: end;
   justify-content: flex-start;
   text-align: start;
