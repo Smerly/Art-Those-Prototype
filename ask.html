@@ -16,7 +16,10 @@
         <img id="title-image" src="Art-Those-Logo.png" />
       </div>
       <form>
-        <input type="search" placeholder="Search" id="search-bar" />
+        <div class='search-horizontal'>
+            <label> Search: </label>
+            <input type="search" placeholder="Search" id="search-bar" />
+        </div>
       </form>
     </div>
 
@@ -43,21 +46,21 @@
     </div>
   </div>
     <div id="overlay-color">
-        <div>
-            <div>
-                <
-
-
-
-
-
-
-
-
-
-
+        <div id='box-ask'>
+            <img src=''>
+            <div class='column'>
+                <input
+                class="image-input"
+                type="file"
+                onchange="readURL(this);"
+                accept="images/*"
+                />
+                <img class="image-display" src="#" alt="" />
+                
+                <textarea placeholder='Write some text to post' class='text-box'></textarea>
             </div>
         </div>
+    </div>
     </div>
     <script src="ask.js"></script>
   </body>
