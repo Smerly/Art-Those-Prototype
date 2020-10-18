@@ -103,6 +103,7 @@ html {
   grid-area: display-ask-text;
   margin-bottom: -3px;
   min-height: 170px;
+  background-color: white;
 }
 
 #teach-title {
