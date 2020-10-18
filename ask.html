@@ -47,19 +47,22 @@
   </div>
     <div id="overlay-color">
         <img src='Ask-Those.png' id='ask-title'>
-        <div id='box-ask'>
+        <form id='box-ask' action='teach.html' method='get'>
             <div class='column'>
                 <input
                 class="image-input"
                 type="file"
                 onchange="readURL(this);"
                 accept="images/*"
+                name='image-input'
                 />
-                <img class="image-display" src="#" alt="" />
+                <img class="image-display" src="#" alt="" name='image-display' />
                 
-                <textarea placeholder='Write some text to post' class='text-box'></textarea>
+                <textarea placeholder='Write some text to post' class='text-box' type='text' name='text-box'></textarea>
+                <button id='post-button' type='submit'> Post </button>
             </div>
-        </div>
+          </form>
+        
     </div>
     </div>
     
