@@ -21,4 +21,4 @@ Currently, the looks of the site is still in the works, but the current prototyp
 
 # How was this contructed?
 
-The HTML consists of three div (boxes) stacked. In the second div, are the five tabs, made by an <a> tag. Inside the final div is the contents of each page, varying depending on which page is clicked on in the second div. 
+The HTML consists of three div (boxes) stacked. In the second div, are the five tabs, made by an <a> tag. Inside the final div is the contents of each page, varying depending on which page is clicked on in the second div. The "Ask" page is made using <input> tags with the type text and type image. Javascript is used to take the element by class name to then transfer the user input from it to the class name elements in the "Teach" page.
