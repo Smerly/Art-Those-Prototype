@@ -94,9 +94,10 @@ html {
   border: 2px black solid;
   object-fit: contain;
   float: below;
+  overflow: auto;
 }
 
-.text-box {
+#text-box {
   display: flex;
   min-height: 400px;
   min-width: 400px;
