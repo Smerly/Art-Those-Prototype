@@ -9,11 +9,11 @@ Throughout my journey as an artist, I hit many many obstacles that I didn't know
 
 Currently, the looks of the site is still in the works, but the current prototype is this
 
+<img width="1680" alt="Example1" src="https://user-images.githubusercontent.com/69550699/96360346-46627900-10d1-11eb-9ea5-9a46c0f664f9.png"> 
 
 
 
-
-
+<img width="1679" alt="Screen Shot 2020-10-17 at 11 27 35 PM copy" src="https://user-images.githubusercontent.com/69550699/96360351-57ab8580-10d1-11eb-9d93-f59b63e05b00.png">
 
 
 
