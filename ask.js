@@ -23,16 +23,19 @@
 
 // ----------------------------------------------------------------------------------
 
-function save() {
-  var new_data = document.getElementById("text-box").value;
+const imgBox = document.querySelector("#image-url-input");
+const textBox = document.querySelector("#text-box");
+const postButton = document.querySelector("#post-button");
 
-  if (localStorage.getItem("dataText") == null) {
-    localStorage.setItem("dataText", "[]");
-  }
-  var old_data = JSON.parse(localStorage.getItem("dataText"));
-  old_data.push(new_data);
+let userInputs = {};
 
-  localStorage.setItem("dataText", JSON.stringify(old_data));
-}
-
-function view() {}
+postButton.addEventListener("click", function (event) {
+  event.preventDefault();
+  // console.log(imgBox.value);
+  // console.log(textBox.value);
+  userInputs.url = imgBox.value;
+  userInputs.question = textBox.value;
+  // console.log(userInputs);
+  localStorage.setItem("data", JSON.stringify(userInputs));
+  // console.log(JSON.parse(localStorage.getItem('dataObject')));
+});
