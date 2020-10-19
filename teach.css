@@ -36,6 +36,7 @@ body {
 li {
   justify-content: space-between;
   list-style-type: none;
+  font-family: Helvetica;
 }
 a {
   text-decoration: none;
