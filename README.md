@@ -25,4 +25,4 @@ The HTML consists of three div (boxes) stacked. In the second div, are the five 
 
 # How is it used?
 
-Currently, the programs only has two working functions, but all the rest of the navs in the navbar are explorable. The main function is in the "Ask" and "Teach" nav. From the "Ask" nav, you can remotely type a description for help and add an image to then post to the "Teach" nav. After you press "post" you can then go to the "Teach" nav to see your post! Of course, since this is still a prototype, you will be the only one seeing it. 
+Currently, the programs only has two working functions, but all the rest of the navs in the navbar are explorable. The main function is in the "Ask" and "Teach" nav. From the "Ask" nav, you can remotely type a description for help and add an image to then post to the "Teach" nav. After you press "post" you can then go to the "Teach" nav to see your post! Of course, since this is still a prototype, you will be the only one seeing it. (The "Settings" nav is currently not a page due to the current lack of use for it)
