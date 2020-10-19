@@ -82,6 +82,11 @@ html {
   color: gray;
 }
 
+p.p-colored {
+  font-family: Helvetica;
+  color: #e7c5b1;
+}
+
 .gridcontainer {
   display: grid;
   justify-content: center;
