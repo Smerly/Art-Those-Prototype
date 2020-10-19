@@ -128,3 +128,7 @@ input.image-display {
   display: flex;
   flex-direction: horizontal;
 }
+
+#colored {
+  color: gray;
+}
